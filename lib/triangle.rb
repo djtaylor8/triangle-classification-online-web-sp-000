@@ -25,7 +25,7 @@ class Triangle
   
   class TriangleError < StandardError
     def error 
-      ""
+      puts "Invalid triangle! All sides must be greater than zero and the sum of two sides may not be smaller than the length of the third side."
     end 
   end 
   
