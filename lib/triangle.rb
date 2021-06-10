@@ -15,11 +15,18 @@ class Triangle
         puts error.message
       end 
     elsif @side_one != @side_two && @side_two != @side_three && @side_one != @side_three
-      :
+      :scalene
+    elsif @side_one == @side_two && @side_two == @side_three && @side_one == @side_three
+      :equilateral
+    else 
+      :isosceles
   end 
   
   
   class TriangleError < StandardError
+    def error 
+      ""
+    end 
   end 
   
 end
