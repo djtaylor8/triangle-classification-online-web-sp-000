@@ -13,6 +13,8 @@ class Triangle
        raise TriangleError
       resuce TriangleError => error 
         puts error.message
+      end 
+    else 
   end 
   
   
