@@ -15,7 +15,7 @@ class Triangle
         puts error.message
       end 
     elsif @side_one != @side_two && @side_two != @side_three && @side_one != @side_three
-      
+      :
   end 
   
   
