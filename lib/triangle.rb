@@ -12,7 +12,7 @@ class Triangle
       begin 
        raise TriangleError
       resuce TriangleError => error 
-        
+        puts error.message
   end 
   
   
